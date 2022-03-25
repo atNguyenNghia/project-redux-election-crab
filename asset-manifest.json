@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/project-redux-election-crab/static/css/main.8a8febe9.css",
+    "main.js": "/project-redux-election-crab/static/js/main.7b1ec10b.js",
+    "static/js/787.50d6de7a.chunk.js": "/project-redux-election-crab/static/js/787.50d6de7a.chunk.js",
+    "index.html": "/project-redux-election-crab/index.html",
+    "main.8a8febe9.css.map": "/project-redux-election-crab/static/css/main.8a8febe9.css.map",
+    "main.7b1ec10b.js.map": "/project-redux-election-crab/static/js/main.7b1ec10b.js.map",
+    "787.50d6de7a.chunk.js.map": "/project-redux-election-crab/static/js/787.50d6de7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a8febe9.css",
+    "static/js/main.7b1ec10b.js"
+  ]
+}
