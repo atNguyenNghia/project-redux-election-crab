@@ -1,11 +1,13 @@
 {
-  "name": "project-bau-cau",
+  "name": "project-redux-election-crab",
   "version": "0.1.0",
+  "homepage": "https://atNguyenNghia.github.io/project-redux-election-crab/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-interpolate-component": "^0.12.0",
@@ -17,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
