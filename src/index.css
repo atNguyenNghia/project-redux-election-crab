@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color:  rgb(255, 155, 2); 
+  min-height: 1500px;
+}
+.elected {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px , 1fr));
+  grid-gap: 1rem;
+}
+
+.plate_container{
+  display:grid;
+  height:300px;
+  width:300px;
+  border-radius: 50%;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  background:white;
+}
+.dice{
+  perspective: 400px;
+ position: absolute;
+}
+.dice-2{
+  top: 50%;
+  left: 10%;
+}
+.dice-1{
+  top: 30%;
+    right: 10%;
+}
+.dice-0{
+  top: 10%;
+  left: 30%;
+}
+.cube {
+  
+  font-size: 2em;
+  width: 2em;
+  
+  transform-style: preserve-3d;
+  /* transform: rotateX(-45deg) rotateY(30deg); */
+}
+
+.side {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  background: rgba(100,100,100,0.5);
+  /* border: 1px solid red;
+  text-align: center;
+  line-height: 2em; */
+}
+
+.front {transform: translateZ(1em);}
+.top {transform: rotateX(90deg) translateZ(1em);}
+.right {transform: rotateY(90deg) translateZ(1em);}
+.left {transform: rotateY(-90deg) translateZ(1em);}
+.bottom {transform: rotateX(-90deg) translateZ(1em);}
+.back {transform: rotateY(-180deg) translateZ(1em);}
